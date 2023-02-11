@@ -9,7 +9,7 @@ pipline {
             steps {
                 script {
                     echo "building the application"
-                    sh "mvn clean package"
+                    sh "mvn clean"
                 }
             }
         }
